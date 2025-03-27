@@ -13,12 +13,12 @@ const departments = [
 ];
 
 const fieldsByDepartment: { [key: string]: string[] } = {
-  'IT': ['Web Development', 'Mobile Development', 'Cloud Computing', 'DevOps'],
-  'CSE': ['Software Engineering', 'Database Systems', 'Computer Networks', 'Operating Systems'],
-  'Mechanical': ['Design', 'Manufacturing', 'Thermal Engineering', 'Robotics'],
-  'Civil': ['Structural Engineering', 'Construction Management', 'Environmental Engineering', 'Transportation'],
-  'AI/ML': ['Computer Vision', 'Natural Language Processing', 'Deep Learning', 'Data Science'],
-  'Cybersecurity': ['Network Security', 'Application Security', 'Cloud Security', 'Ethical Hacking'],
+  'IT': ['Web Development', 'Mobile Development', 'Cloud Computing', 'DevOps', 'Computer Networks', 'Operating Systems'],
+  'CSE': ['Software Engineering', 'Database Systems', 'Computer Networks', 'Operating Systems', 'Computer Architecture'],
+  'Mechanical': ['Thermal Engineering', 'Manufacturing Engineering', 'Robotics and Automation', 'Design Engineering', 'Maintenance Engineering'],
+  'Civil': ['Structural Engineering', 'Transportation Engineering', 'Environmental Engineering', 'Geotechnical Engineering', 'Construction Management'],
+  'AI/ML': ['Machine Learning', 'Deep Learning', 'Computer Vision', 'Natural Language Processing', 'Robotics'],
+  'Cybersecurity': ['Network Security', 'Application Security', 'Cloud Security', 'Incident Response', 'Security Operations'],
 };
 
 export default function CareerSelection() {
